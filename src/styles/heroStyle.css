@@ -1,0 +1,41 @@
+.hero {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  height: 90vh;
+  background-image: url(https://images.unsplash.com/photo-1708170236083-4671c6b83ad3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.441);
+}
+
+.hero h1,
+p {
+  position: relative;
+  color: whitesmoke;
+}
+
+.hero h1 {
+  font-size: 60pt;
+}
+
+.hero p {
+  font-size: 1.8em;
+  color: whitesmoke;
+}
+
+.hero button {
+  position: relative;
+  width: fit-content;
+}

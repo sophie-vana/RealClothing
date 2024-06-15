@@ -1,0 +1,62 @@
+/* Navigation Styling */
+.navBar {
+  display: flex;
+  padding: 1em;
+  font-size: 1.15em;
+  background-color: rgb(93, 133, 138);
+}
+
+.brand {
+  margin-right: 2em;
+}
+
+.ml-auto {
+  gap: 2em;
+}
+
+.navBar .navbar-brand {
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-link {
+  color: whitesmoke;
+  border-radius: 0.3em;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: black;
+  border-radius: 0.3em;
+  transition: background-color 0.2s ease-in;
+}
+
+.logo {
+  width: 25px;
+  margin-right: 0.5em;
+}
+
+.signedIn {
+  color: whitesmoke;
+}
+
+/* Media Query for Tablets (768px - 991px) */
+@media (max-width: 991px) {
+  .navBar {
+    height: auto;
+  }
+}
+
+/* Media Query for Mobile Devices (up to 767px) */
+@media (max-width: 767px) {
+  .navBar {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .ml-auto {
+    gap: 1em;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5em 1em;
+  }
+}
